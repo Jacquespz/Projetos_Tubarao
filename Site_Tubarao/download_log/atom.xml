@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="ESW7/FeedCreator 1.7.2-ppt" -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Rápido de Transportes Tubarão Ltda.</title>
+    <subtitle>tubaraotransportes.com.br</subtitle>
+    <link rel="alternate" type="text/html" href="http://tubaraotransportes.com.br/"/>
+    <id>http://tubaraotransportes.com.br/</id>
+    <updated>2014-10-30T21:10:57+00:00</updated>
+    <generator>ESW7/FeedCreator 1.7.2-ppt</generator>
+<link rel="self" type="application/atom+xml" href="" />
+    <entry>
+        <title>Tubarão Transportes</title>
+        <link rel="alternate" type="text/html" href="http://tubaraotransportes.com.br//index.html"/>
+        <published>2014-10-30T21:10:57+00:00</published>
+        <updated>2014-10-30T21:10:57+00:00</updated>
+        <id>http://tubaraotransportes.com.br//index.html</id>
+    </entry>
+</feed>

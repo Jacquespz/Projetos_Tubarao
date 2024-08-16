@@ -1,0 +1,16 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName tubaraotransportes.com.br
+AuthUserFile /services/webpages/t/u/tubaraotransportes.com.br/public/_vti_pvt/service.pwd
+AuthGroupFile /services/webpages/t/u/tubaraotransportes.com.br/public/_vti_pvt/service.grp

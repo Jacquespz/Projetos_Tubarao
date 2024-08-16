@@ -1,0 +1,5 @@
+66.249.72.92 - - [02/Jul/2013:00:02:44 +0000] "GET /robots.txt HTTP/1.1" 404 2105 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)"
+66.249.72.92 - - [02/Jul/2013:00:02:44 +0000] "GET /start.swf HTTP/1.1" 200 26103 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)"
+66.249.72.92 - - [02/Jul/2013:00:07:42 +0000] "GET /start.swf HTTP/1.1" 200 26103 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)"
+66.249.72.92 - - [02/Jul/2013:00:07:44 +0000] "GET /caixatrans.swf HTTP/1.1" 200 11426 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)"
+66.249.72.92 - - [02/Jul/2013:00:07:44 +0000] "GET /caixalogis.swf HTTP/1.1" 200 16798 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)"

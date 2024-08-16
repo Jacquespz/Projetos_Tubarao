@@ -1,0 +1,6 @@
+218.201.78.41 - - [08/Apr/2012:09:17:35 +0000] "HEAD /index.asp HTTP/1.0" 302 19 "-" "-"
+199.21.99.90 - - [08/Apr/2012:10:33:59 +0000] "GET /robots.txt HTTP/1.1" 404 2029 "-" "Mozilla/5.0 (compatible; YandexBot/3.0;  http://yandex.com/bots)"
+199.21.99.90 - - [08/Apr/2012:11:24:07 +0000] "GET /index.asp HTTP/1.1" 302 764 "-" "Mozilla/5.0 (compatible; YandexBot/3.0;  http://yandex.com/bots)"
+65.52.104.90 - - [08/Apr/2012:13:51:14 +0000] "GET /robots.txt HTTP/1.1" 404 2111 "-" "Mozilla/5.0 (compatible; bingbot/2.0;  http://www.bing.com/bingbot.htm)"
+65.52.104.90 - - [08/Apr/2012:13:52:32 +0000] "GET /index.asp HTTP/1.1" 302 284 "-" "Mozilla/5.0 (compatible; bingbot/2.0;  http://www.bing.com/bingbot.htm)"
+208.80.194.27 - - [08/Apr/2012:15:48:20 +0000] "GET /index.asp HTTP/1.0" 302 704 "-" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; YPC 3.2.0; IEMB3; .NET CLR 1.1.4322; .NET CLR 2.0.50727; IEMB3; yplus 5.1.04b)"

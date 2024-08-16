@@ -1,0 +1,15 @@
+
+Controle de Berços - Com Melhorias!
+
+Adicionado Total Geral De berços 
+
+Adicionado campos para Registrar quem recebeu os berços.
+
+Na tabela SQL MOVIMENTAÇÃO foi adicionado o campo tipo.
+
+
+O banco de dados na Pasta com o nome Controle_bercos.sql  esta atualizado
+
+
+
+Autor Jacques Pereira Zeferino.

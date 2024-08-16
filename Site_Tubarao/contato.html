@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Tubarão Transportes - Contato</title>
+
+
+<!-- CSS do validador -->
+    <link href="css/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+    <link href="css/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
+    <link href="css/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
+
+<!-- Css do formulario -->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+     <head>
+   <meta charset="UTF-8">
+   <title>Tubarão Transportes - Contato</title>
+   <link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+
+   <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+   <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+  
+</head>
+
+<body>
+
+
+  <!--start container-->
+ <div id="container">
+
+   <!--start header-->
+   <header>
+
+        <!--start logo-->
+   <a href="#" id="logo"><img src="images/logo1.jpg" width="230" height="90" alt="logo"/></a>   
+   <!--end logo-->
+   
+   <!--start menu-->
+
+   <nav>
+    <ul>
+     <li><a href="index.html"class="current">Home</a></li>
+     <li><a href="empresa.html">Empresa</a></li>
+     <li><a href="servicos.html">Serviços</a></li>
+     <li><a href="contato.html">Contato</a></li>
+     <li><a href="login.html">Área Restrita</a></li>
+    </ul>
+   </nav>
+   <!--end menu-->
+   <!--end header-->
+   </header>
+
+
+        <div class="formulario">  
+        
+        <form action="envia.php" method="POST"> <!--  chama o envia.php -->        
+          <h3>Contato</h3> 
+<h5>
+ <p>Ultilize este espaço para entrar em <br>
+contato com a Tubarão Transportes:</p>     
+</h5>                   
+        <div class="formulario-texto">Nome</div>
+        <div class="formulario-campo">
+        <span id="sprytextfield1">
+        <input type="text" name="nomeremetente" class="textfield-nome"/>
+        <br /><span class="textfieldRequiredMsg">Digite seu nome</span></span></div>
+                
+        <div class="formulario-texto">E-mail</div>
+        <div class="formulario-campo"><span id="sprytextfield2">
+        <input type="text" name="emailremetente" class="textfield-nome"/>
+        <br /><span class="textfieldRequiredMsg">Digite seu e-mail</span>
+        <span class="textfieldInvalidFormatMsg">Formato de e-mail inválido</span></span></div> 
+          
+                
+        <div class="formulario-texto">Telefone</div>
+        <div class="formulario-campo">
+        
+        <span id="sprytextfield3">
+        <input type="text" name="ddd" class="textfield-ddd" />
+        <span class="textfieldRequiredMsg">Digite seu DDD</span>
+        <span class="textfieldInvalidFormatMsg">Digite os 2 números do seu DDD</span>
+        <span class="textfieldMinCharsMsg">Digite os 2 números do seu DDD</span>
+        <span class="textfieldMaxCharsMsg">Digite os 2 números do seu DDD</span></span>
+        
+        <span id="sprytextfield4">
+        <input type="text" name="telefone" class="textfield-telefone" /> <br />
+        <span class="textfieldRequiredMsg">Digite seu telefone</span>
+        <span class="textfieldInvalidFormatMsg">Formato inválido, digite seu telefone como no exemplo: 78872332</span></span></div>
+                                                       
+        
+                      
+        <div class="formulario-texto">Assunto</div>
+        <div class="formulario-campo"><span id="sprytextfield5">
+        <input type="text" name="assunto" class="textfield-nome"/>
+        <br /><span class="textfieldRequiredMsg">Digite o assunto</span></span></div>
+        
+        
+        <div  style="float:left; width:100%;"> </div>
+        <div class="formulario-texto">Mensagem</div>
+        <div class="formulario-campo"><span id="sprytextarea1">
+        <textarea name="mensagem" cols="60" rows="10"></textarea>
+        <br /><span class="textareaRequiredMsg">Digite sua mensagem</span></span></div>
+                          
+        <div>
+        <input name="enviar" type="reset" value="Limpar" class="btn-contato-reset"  />
+        <input name="enviar" type="submit" value="Enviar" class="btn-contato-enviar"  />                
+        </div>
+        
+        
+      </form> 
+
+      <br>
+      <br>
+      <div>
+      <h6>  
+      <p>Av. Bernardino Silveira Amorim, 815 - Bairro Sarandi</p>
+			<p>Porto Alegre - RS, CEP: 90140-410</p>
+            
+      <p>E-mail: <a href="mailto:tubarao@tubaraotransportes.com.br">tubarao@tubaraotransportes.com.br</a></p>
+      
+      <p>Fone: (51)3365-9411/ 3365-7121/ 3365-9895</p>
+      </h6>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13823.143881025531!2d-51.11151639999999!3d-29.9855804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197691684c6f57%3A0xfd77860662ddc63b!2sAv.+Bernardino+Silveira+Amorim%2C+815+-+Sarandi%2C+Porto+Alegre+-+RS%2C+91140-410!5e0!3m2!1spt-BR!2sbr!4v1435328693136" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" 
+     </div>
+     </div>
+      <!-- InstanceEndEditable -->
+  </div>
+  <div id="footer">
+  	<div class="slide">
+    </div>
+  </div>
+</div>
+  
+ 
+</body>
+
+<footer>
+  <div class="container-footer">
+      <div class="row-footer">
+          <!-- footer col-->
+          <div class="footer-col">
+                 <h4>Empresa</h4>
+                 <ul>
+                     <li><a href="index.html"class="current">Home</a></li>
+                     <li><a href="empresa.html">Empresa</a></li>
+                     <li><a href="servicos.html">Serviços</a></li>
+                     <li><a href="contato.html">Contato</a></li>
+                     <li><a href="login.html">Área Restrita</a></li>
+                 </ul>
+          </div>
+
+          <!--end footer col-->
+          <!-- footer col-->
+          <div class="footer-col">
+                 <h4>Sites Uteis</h4>
+                 <ul>                
+                    <li><a href="https://www1.repom.com.br/"target="_blank"><strong>Repom</strong></a></li>
+                    <li><a href="http://www.repom.com.br/RepomVPRCardDataASP/VPRCardData.aspx"target="_blank"><strong>VPR Repom</strong></a></li>
+                    <li><a href="https://www.sempararempresas.com.br/valepedagio/"target="_blank"><strong>Sem Parar</strong></a></li>
+                    <li><a href="https://www.fretebras.com.br/" target="_blank"><strong>FreteBras</strong></a></li>
+                    <li><a href="https://consultapublica.antt.gov.br/Site/ConsultaRNTRC.aspx"target="_blank"><strong>ANTT</strong></a></li>
+                    <li><a href="https://cnisnet.inss.gov.br/cnisinternet/faces/pages/inscricao/filiado/identificar.xhtml"target="_blank"><strong>CNIS / PIS</strong></a></li>
+                </ul>
+           </div><!--end footer col-->
+                                           
+          <div class="footer-col"> <!-- footer col-->
+              <h4>Fiscal</h4>
+               <ul>
+                   <li><a href="http://www.sintegra.gov.br/"target="_blank"><strong>Sintegra</strong></a></li>
+                   <li><a href="http://www.nfe.fazenda.gov.br/portal/principal.aspx"target="_blank"><strong>NF-e</strong></a></li>
+                   <li><a href="https://www.gov.br/receitafederal/pt-br"target="_blank"><strong>Receita Federal</strong></a></li>
+                   <li><a href="https://www.gov.br/prf/pt-br"target="_blank"><strong>PRF</strong></a></li>
+                   
+               </ul>
+          </div><!--end footer col-->
+                     
+          <div class="footer-col"><!-- footer col-->
+              <h4>Siga-nos</h4>
+              <!--<div class="form-sub">
+                <form>
+                <input type="email" placeholder="Digite o seu e-mail" required>
+                <button>subscrever</button>
+                </form>
+              </div><--end footer col-->
+
+              <div class="medias-socias">
+                 <a href="https://www.facebook.com/pages/Tubar%C3%A3o-Transportes/457092731103685" target="_blank"><strong></strong><i class="fa fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/tubarao_transportes_br/" target="_blank"><strong></strong><i class="fa fa-instagram"></i> </a>
+                 <a href="https://twitter.com/rtubarao011" target="_blank"><strong></strong><i class="fa fa-twitter"></i> </a>
+                 <a href="https://www.linkedin.com/in/tubar%C3%A3o-transportes-29ba47254/" target="_blank"><strong></strong><i class="fa fa-linkedin"></i> </a>
+              </div><!--end medias-solicias-->
+
+              <div class="autor">copyright &copy; 2015 - By Jacques Pereira</div>
+          </div><!--end footer col-->
+       </div><!--end class="row-footer"-->
+  </div><!-- container-footer-->
+</footer>
+   </body>
+</html>
+        
+        </div><!--Fim do Conteudo Paginas-->
+                
+ <!-- Chama validação do formulário -->
+ 
+<script type="text/javascript" src="js/SpryValidationTextField.js" language="javascript" ></script>
+<script type="text/javascript" src="js/SpryValidationTextarea.js" language="javascript" ></script>
+<script type="text/javascript" src="js/SpryValidationSelect.js" language="javascript" ></script>    
+
+<script type="text/javascript">
+
+	var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+	var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email");
+	var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "integer", {minChars:2, maxChars:2});
+	var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");	
+	var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5");
+	var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+
+</script>
+
+
+
+</body>
+</html>
